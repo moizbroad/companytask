@@ -12,7 +12,8 @@ export const Footer = () => {
           <a href="#">Contact</a>
         </nav>
         <div className={style.footerThird}>
-          <a href="#">Logout</a>
+          {/* <a href="#">Logout</a> */}
+          <a href="mailto:moizkhan@gmail.com">moizkhan@gmail.com</a>
         </div>
       </div>
       <div className={style.copyright}>
@@ -21,5 +22,3 @@ export const Footer = () => {
     </>
   );
 };
-
-// export default index
