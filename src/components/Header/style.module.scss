@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 20px;
+  align-items: center;
+  margin-bottom: 100px;
+  nav {
+    flex: 1;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    a {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  .logoutText {
+    width: 100px;
+    color: rgb(51, 113, 189);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .brandLogo {
+    width: 100px;
+    font-size: 36px;
+    font-weight: bolder;
+  }
+}

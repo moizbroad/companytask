@@ -1,0 +1,54 @@
+.heroMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2%;
+  margin-bottom: 100px;
+  .heroImgSec {
+    width: 45%;
+    img {
+      width: 100%;
+      max-height: 500px;
+      border-radius: 20px;
+    }
+  }
+  .heroDetailSec {
+    text-align: center;
+    width: 45%;
+
+    h1 {
+      font-size: 40px;
+      font-weight: bolder;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+.portfolioMain {
+  margin-bottom: 100px;
+
+  .portFolioHead {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .portfolioSubMain {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .portfolioCard {
+    border-radius: 12px;
+    width: 32%;
+    box-shadow: 0 0 10px #ccc;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    img {
+      max-width: 100%;
+      max-height: 200px;
+    }
+  }
+}
